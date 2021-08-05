@@ -1,42 +1,31 @@
-post a {
-  color: #d14e4e;
+.article {
+  margin: auto;
+  position: relative;
+  top: 100px;
+  color: text-font;
+  padding: 20px;
+  font-size: 15px;
 }
-.post_title {
-  font: bold 2.3em "Noto Sans SC", sans-serif;
-  text-align: center;
+.article h1 {
+  font-weight: bolder;
+  margin: 20px 0;
 }
-.post_title:after {
-  content: '';
-  display: block;
-  margin: 0.2em auto 0;
-  width: 100px;
-  height: 2px;
-  border-bottom: 2px dashed #d14e4e;
+.article .info a {
+  color: #5c6b72;
+  text-decoration: none;
 }
-#post_content {
-  font-size: 1.2em;
-  font-family: "Noto Sans SC", sans-serif;
+.article .info .date,
+.article .info .category,
+.article .info .tags {
+  color: #5c6b72;
+  display: inline-block;
+  margin-right: 20px;
 }
-#post_content img {
-  margin: 0 10% 0 10%;
-  max-width: 80%;
+.article .info .date .tag,
+.article .info .category .tag,
+.article .info .tags .tag {
+  margin-right: 10px;
 }
-h1 {
-  font-weight: bold;
-  font-size: 2em;
-}
-h2 {
-  font-weight: bold;
-  font-size: 1.8em;
-}
-h3 {
-  font-weight: bold;
-  font-size: 1.6em;
-}
-h4 {
-  font-weight: bold;
-  font-size: 1.3em;
-}
-.busuanzi {
-  font-weight: bold;
+.article .content {
+  margin: 50px 0;
 }
